@@ -1,0 +1,66 @@
+/*TABLEAUX*/
+table {
+  margin: 15px 20px;
+  border: 1px solid black;
+}
+td,
+th {
+  border: 1px solid silver;
+}
+th {
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+thead {
+  text-align: center;
+  background-color: lightslategrey;
+}
+tfoot {
+  text-align: center;
+  background-color: lightblue;
+}
+
+/*NOTIFICATIONS*/
+.success {
+  background-color: lightgreen;
+  border-radius: 5px;
+  border: 1px solid green;
+  color: green;
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+}
+.error {
+  background-color: pink;
+  border-radius: 5px;
+  border: 1px solid red;
+  color: red;
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+}
+
+/* ARTICLES */
+article {
+  background-color: silver;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 400px;
+}
+figure {
+  background: lightyellow;
+  width: 200px;
+}
+article section {
+  background-color: lightgreen;
+  width: 80%;
+  height: 370px;
+  padding: 15px;
+}
+article div.description {
+  font-family: Arial;
+  font-weight: bold;
+}
